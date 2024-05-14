@@ -1,0 +1,25 @@
+[package]
+name = "client_server"
+version = "0.1.0"
+edition = "2021"
+
+documentation = "https://github.com/malledugean/rust_client_server/blob/main/README.md"
+homepage = "https://github.com/malledugean/rust_client_server"
+readme = "README.md"
+
+authors = ["Roberto Pavusa Junior <pavusa@gmail.com>"] 
+
+license = "CC-BY-4.0"
+
+description = "A Rust client server sample application"
+
+keywords = ["client", "server", "client-server", "sample"]
+
+repository = "https://github.com/malledugean/rust_client_server.git"
+
+[dependencies]
+# List dependencies that safe_math library requires 
+
+
+[dev-dependencies]
+# List development dependencies used for testing 
