@@ -32,9 +32,9 @@ async fn main() -> tide::Result<()> {
 
     println!("Server started and running!");
     
-    println!("Listening at http://127.0.0.1:4001");
+    println!("Listening at http://serverip:4001");
 
-    app.listen("127.0.0.1:4001").await?;
+    app.listen("0.0.0.0:4001").await?;
 
     Ok(())
 }
