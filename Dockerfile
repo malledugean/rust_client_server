@@ -1,7 +1,7 @@
 FROM rust
 
 WORKDIR /server
-COPY src/* src/*
+COPY src/ src/
 COPY Cargo.toml /server/Cargo.toml
 RUN cargo build -r
 
